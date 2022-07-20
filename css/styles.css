@@ -1,0 +1,169 @@
+
+body {
+    background-color: grey !important;
+}
+
+.fixedcontainer #links {
+	position: fixed; 
+	top: 0%;
+	z-index: 1;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	background-color: #c0c0c0;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 12px;
+	padding-left: 0px;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	white-space: normal;
+} 
+
+.header {
+	position: relative;
+	display:inline-block;
+	width:100%;
+	margin-top: 0px;
+	margin-bottom:: 0px;	
+	text-align: left;
+	height: 250px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-left: 20px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	background: url(http://bulgakova.group.shef.ac.uk/logo.png); 
+    background-repeat: repeat-x;
+
+} 
+
+.header #logo{
+	display:table-cell;
+	top: 0;
+	line-height: 250px;
+	font-size: 700%;
+	color: #000000;
+	font-weight: bold;
+
+	}
+	
+@media (max-width: 1020px) {
+	.header #logo{
+	display:table-cell;
+	top: 0;
+	line-height: 250px;
+	font-size: 10vw;
+	color: #000000;
+	font-weight: bold;
+	}
+	}
+
+
+.Main {
+	position: relative;
+	overflow: auto;
+	width: 100%;  
+	background-color: #76767; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+	
+.Main #mainContent {
+	font-size: 16px !important;
+	z-index: 4;
+	background-color: #ffffff;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	white-space: normal;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { .Main #mainContent{} }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { .Main #mainContent{} }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { .Main #mainContent{} }
+
+.Main #footer {
+	background-color: #76767;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	bottom: 0px;
+} 
+
+body,td,th {
+	color: #000000;
+}
+a:link {
+	color: #767676;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+
+}
+
+div.linkbox {
+	display:inline;
+	color: #ca0000;
+	font-weight: bold;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+#mainContent a:link {
+	color:#666;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#mainContent a:visited {
+	color:#666;
+	font-weight: bold;
+	text-decoration: none;
+}
+#mainContent a:hover {
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+#mainContent a:active {
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#mainContent ul.publist {
+	font-size: small;
+	list-style-type: circle;
+}
+
