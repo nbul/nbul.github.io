@@ -1,6 +1,7 @@
 
 body {
-    background-color: #ffffff !important;
+    background-color: #767676 !important;
+	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .fixedcontainer #links {
@@ -10,7 +11,7 @@ body {
 	font-size: 18px;
 	text-align: center;
 	width: 100%;
-	background-color: #c0c0c0;
+	background-color: #767676;
 	padding-top: 12px;
 	padding-right: 0px;
 	padding-bottom: 12px;
@@ -64,7 +65,7 @@ body {
 	position: relative;
 	overflow: auto;
 	width: 100%;  
-	background-color: #76767; /* the auto margins (in conjunction with a width) center the page */
+	background-color: #767676; /* the auto margins (in conjunction with a width) center the page */
 	text-align: left; /* this overrides the text-align: center on the body element. */
 	margin-top: 0;
 	margin-right: auto;
@@ -75,7 +76,7 @@ body {
 .Main #mainContent {
 	font-size: 16px !important;
 	z-index: 4;
-	background-color: #ffffff;
+	background-color: #767676;
 	border-top-style: none;
 	border-right-style: none;
 	border-bottom-style: none;
@@ -85,6 +86,10 @@ body {
 	padding-bottom: 10px;
 	padding-left: 20px;
 	padding-top: 10px;
+}
+
+table {
+  width: 100%;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -100,7 +105,7 @@ body {
 @media (min-width: @screen-lg-min) { .Main #mainContent{} }
 
 .Main #footer {
-	background-color: #76767;
+	background-color: #767676;
 	font-size: 12px;
 	padding-top: 10px;
 	padding-right: 10px;
@@ -113,16 +118,16 @@ body,td,th {
 	color: #000000;
 }
 a:link {
-	color: #767676;
+	color: #161616;
 	font-weight: bold;
 	text-decoration: none;
 }
 a:visited {
-	color: #333333;
+	color: #262626;
 	text-decoration: none;
 }
 a:hover {
-	color: #000000;
+	color: #00C896;
 	text-decoration: none;
 }
 a:active {
@@ -133,25 +138,25 @@ a:active {
 
 div.linkbox {
 	display:inline;
-	color: #ca0000;
+	color: #005A34;
 	font-weight: bold;
 	margin-right: 0.5em;
 	margin-left: 0.5em;
 }
 
 #mainContent a:link {
-	color:#666;
+	color:#000000;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 #mainContent a:visited {
-	color:#666;
+	color:#262626;
 	font-weight: bold;
 	text-decoration: none;
 }
 #mainContent a:hover {
-	color:#000000;
+	color:#00C896;
 	font-weight: bold;
 	text-decoration: none;
 }
