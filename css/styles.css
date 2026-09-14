@@ -88,8 +88,13 @@ body {
 	padding-top: 10px;
 }
 
-table {
-  width: 100%;
+table, th, td  {
+  width: auto;
+  border: none;
+}
+
+.blank_row {
+  line-height: 0.5;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -135,6 +140,8 @@ a:active {
 	text-decoration: none;
 
 }
+
+
 
 div.linkbox {
 	display:inline;
